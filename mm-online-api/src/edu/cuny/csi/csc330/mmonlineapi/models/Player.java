@@ -10,6 +10,7 @@ public class Player {
 	private ObjectId id;
 	private String username;
 	private String password;
+	private String color;
 	
 	public String getUsername() {
 		return username;
@@ -22,6 +23,12 @@ public class Player {
 	}
 	public void setPassword(String password) {
 		this.password = password;
+	}
+	public String getColor() {
+		return color;
+	}
+	public void setColor(String color) {
+		this.color = color;
 	}
 	
 	
